@@ -2,135 +2,62 @@
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
   <NonVisualComponents>
-    <Container class="javax.swing.JMenu" name="jMenu1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="jMenu1"/>
-      </Properties>
-
-      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
-        <Property name="useNullLayout" type="boolean" value="true"/>
-      </Layout>
-    </Container>
-    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
-    </Component>
     <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
       <SubComponents>
-        <Menu class="javax.swing.JMenu" name="menuAlumnos">
+        <Menu class="javax.swing.JMenu" name="menu">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Alumnos"/>
+            <Property name="text" type="java.lang.String" value="Menu"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuA&#xf1;adirAlum">
+            <MenuItem class="javax.swing.JMenuItem" name="menuAlumnos">
               <Properties>
-                <Property name="text" type="java.lang.String" value="A&#xf1;adir"/>
+                <Property name="text" type="java.lang.String" value="Alumnos"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuA&#xf1;adirAlumActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuAlumnosActionPerformed"/>
               </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuModificarAlum">
+            <MenuItem class="javax.swing.JMenuItem" name="menuDocentes">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Modificar"/>
+                <Property name="text" type="java.lang.String" value="Docentes"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuEliminarAlum">
+            <MenuItem class="javax.swing.JMenuItem" name="menuCursos">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Eliminar"/>
+                <Property name="text" type="java.lang.String" value="Cursos"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuListarAlum">
+            <MenuItem class="javax.swing.JMenuItem" name="menuAulas">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Listar"/>
+                <Property name="text" type="java.lang.String" value="Aulas"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuAulasActionPerformed"/>
+              </Events>
+            </MenuItem>
+            <MenuItem class="javax.swing.JMenuItem" name="menuSalir">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Salir"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuSalirActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="menuDocentes">
+        <Menu class="javax.swing.JMenu" name="menuAyuda">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Docentes"/>
+            <Property name="text" type="java.lang.String" value="Ayuda"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuA&#xf1;adirDoc">
+            <MenuItem class="javax.swing.JMenuItem" name="menuAcerca">
               <Properties>
-                <Property name="text" type="java.lang.String" value="A&#xf1;adir"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuA&#xf1;adirDocActionPerformed"/>
-              </Events>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuModificarDoc">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Modificar"/>
+                <Property name="text" type="java.lang.String" value="Acerca de..."/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuEliminarDoc">
+            <MenuItem class="javax.swing.JMenuItem" name="menuContacto">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Eliminar"/>
-              </Properties>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuListarDoc">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Listar"/>
-              </Properties>
-            </MenuItem>
-          </SubComponents>
-        </Menu>
-        <Menu class="javax.swing.JMenu" name="menuCursos">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Cursos"/>
-          </Properties>
-          <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuA&#xf1;adirCursos">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="A&#xf1;adir"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuA&#xf1;adirCursosActionPerformed"/>
-              </Events>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuModificarCursos">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Modificar"/>
-              </Properties>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuEliminarCursos">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Eliminar"/>
-              </Properties>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuListarCursos">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Listar"/>
-              </Properties>
-            </MenuItem>
-          </SubComponents>
-        </Menu>
-        <Menu class="javax.swing.JMenu" name="menuAulas">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Aulas"/>
-          </Properties>
-          <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="menuA&#xf1;adirAulas">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="A&#xf1;adir"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuA&#xf1;adirAulasActionPerformed"/>
-              </Events>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuModificarAulas">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Modificar"/>
-              </Properties>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuEliminarAulas">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Eliminar"/>
-              </Properties>
-            </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="menuListarAulas">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="Listar"/>
+                <Property name="text" type="java.lang.String" value="Soporte"/>
               </Properties>
             </MenuItem>
           </SubComponents>
@@ -161,7 +88,11 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="panelPrincipal" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="panelPrincipal" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -177,75 +108,41 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jButton4" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <Component id="jRadioButton1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jRadioButton2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jRadioButton3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                      </Group>
-                      <Component id="jScrollPane1" alignment="0" pref="698" max="32767" attributes="0"/>
-                      <Group type="102" alignment="0" attributes="0">
-                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jButton4" min="-2" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jTabbedPane1" min="-2" pref="623" max="-2" attributes="0"/>
+                  <EmptySpace pref="98" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
-          <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jScrollPane1" min="-2" pref="251" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+          <Group type="103" groupAlignment="1" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="jTabbedPane1" min="-2" pref="149" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="118" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="6" max="32767" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jRadioButton1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jRadioButton3" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
-          <AuxValues>
-            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-          </AuxValues>
-
-          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-          <SubComponents>
-            <Component class="javax.swing.JTable" name="jTable1">
-              <Properties>
-                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                  <Table columnCount="4" rowCount="4">
-                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
-                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
-                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
-                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
-                  </Table>
-                </Property>
-              </Properties>
-            </Component>
-          </SubComponents>
-        </Container>
         <Component class="javax.swing.JButton" name="jButton1">
           <Properties>
             <Property name="text" type="java.lang.String" value="A&#xf1;adir"/>
@@ -269,21 +166,124 @@
             <Property name="text" type="java.lang.String" value="Buscar"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jRadioButton1"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton2">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jRadioButton2"/>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JRadioButton" name="jRadioButton3">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="jRadioButton3"/>
-          </Properties>
-        </Component>
+        <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Alumnos">
+                    <Property name="tabTitle" type="java.lang.String" value="Alumnos"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable1">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Docentes">
+                    <Property name="tabTitle" type="java.lang.String" value="Docentes"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable4">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane5">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Cursos">
+                    <Property name="tabTitle" type="java.lang.String" value="Cursos"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable5">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane6">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                  <JTabbedPaneConstraints tabName="Aulas">
+                    <Property name="tabTitle" type="java.lang.String" value="Aulas"/>
+                  </JTabbedPaneConstraints>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTable" name="jTable6">
+                  <Properties>
+                    <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                      <Table columnCount="4" rowCount="4">
+                        <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                        <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                      </Table>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
       </SubComponents>
     </Container>
   </SubComponents>

@@ -27,56 +27,32 @@ public class ventanaPpal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jMenu1 = new javax.swing.JMenu();
-        buttonGroup1 = new javax.swing.ButtonGroup();
         panelPrincipal = new javax.swing.JPanel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
+        jTabbedPane1 = new javax.swing.JTabbedPane();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTable4 = new javax.swing.JTable();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jTable5 = new javax.swing.JTable();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        jTable6 = new javax.swing.JTable();
         jMenuBar1 = new javax.swing.JMenuBar();
-        menuAlumnos = new javax.swing.JMenu();
-        menuAñadirAlum = new javax.swing.JMenuItem();
-        menuModificarAlum = new javax.swing.JMenuItem();
-        menuEliminarAlum = new javax.swing.JMenuItem();
-        menuListarAlum = new javax.swing.JMenuItem();
-        menuDocentes = new javax.swing.JMenu();
-        menuAñadirDoc = new javax.swing.JMenuItem();
-        menuModificarDoc = new javax.swing.JMenuItem();
-        menuEliminarDoc = new javax.swing.JMenuItem();
-        menuListarDoc = new javax.swing.JMenuItem();
-        menuCursos = new javax.swing.JMenu();
-        menuAñadirCursos = new javax.swing.JMenuItem();
-        menuModificarCursos = new javax.swing.JMenuItem();
-        menuEliminarCursos = new javax.swing.JMenuItem();
-        menuListarCursos = new javax.swing.JMenuItem();
-        menuAulas = new javax.swing.JMenu();
-        menuAñadirAulas = new javax.swing.JMenuItem();
-        menuModificarAulas = new javax.swing.JMenuItem();
-        menuEliminarAulas = new javax.swing.JMenuItem();
-        menuListarAulas = new javax.swing.JMenuItem();
-
-        jMenu1.setText("jMenu1");
+        menu = new javax.swing.JMenu();
+        menuAlumnos = new javax.swing.JMenuItem();
+        menuDocentes = new javax.swing.JMenuItem();
+        menuCursos = new javax.swing.JMenuItem();
+        menuAulas = new javax.swing.JMenuItem();
+        menuSalir = new javax.swing.JMenuItem();
+        menuAyuda = new javax.swing.JMenu();
+        menuAcerca = new javax.swing.JMenuItem();
+        menuContacto = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
-            },
-            new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
-            }
-        ));
-        jScrollPane1.setViewportView(jTable1);
 
         jButton1.setText("Añadir");
 
@@ -91,138 +67,142 @@ public class ventanaPpal extends javax.swing.JFrame {
 
         jButton4.setText("Buscar");
 
-        jRadioButton1.setText("jRadioButton1");
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane1.setViewportView(jTable1);
 
-        jRadioButton2.setText("jRadioButton2");
+        jTabbedPane1.addTab("Alumnos", jScrollPane1);
 
-        jRadioButton3.setText("jRadioButton3");
+        jTable4.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane4.setViewportView(jTable4);
+
+        jTabbedPane1.addTab("Docentes", jScrollPane4);
+
+        jTable5.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane5.setViewportView(jTable5);
+
+        jTabbedPane1.addTab("Cursos", jScrollPane5);
+
+        jTable6.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane6.setViewportView(jTable6);
+
+        jTabbedPane1.addTab("Aulas", jScrollPane6);
 
         javax.swing.GroupLayout panelPrincipalLayout = new javax.swing.GroupLayout(panelPrincipal);
         panelPrincipal.setLayout(panelPrincipalLayout);
         panelPrincipalLayout.setHorizontalGroup(
             panelPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelPrincipalLayout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(panelPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(panelPrincipalLayout.createSequentialGroup()
-                        .addComponent(jRadioButton1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jRadioButton2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jRadioButton3)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 698, Short.MAX_VALUE)
-                    .addGroup(panelPrincipalLayout.createSequentialGroup()
-                        .addComponent(jButton1)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton2)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton4)))
+                .addGap(18, 18, 18)
+                .addComponent(jButton1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jButton2)
+                .addGap(18, 18, 18)
+                .addComponent(jButton3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jButton4)
                 .addContainerGap())
-        );
-        panelPrincipalLayout.setVerticalGroup(
-            panelPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(panelPrincipalLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 251, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 623, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(98, Short.MAX_VALUE))
+        );
+        panelPrincipalLayout.setVerticalGroup(
+            panelPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+            .addGroup(panelPrincipalLayout.createSequentialGroup()
+                .addGap(23, 23, 23)
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 149, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(118, 118, 118)
                 .addGroup(panelPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
                     .addComponent(jButton2)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 6, Short.MAX_VALUE)
-                .addGroup(panelPrincipalLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton1)
-                    .addComponent(jRadioButton2)
-                    .addComponent(jRadioButton3)))
+                .addContainerGap(23, Short.MAX_VALUE))
         );
 
-        menuAlumnos.setText("Alumnos");
+        menu.setText("Menu");
 
-        menuAñadirAlum.setText("Añadir");
-        menuAñadirAlum.addActionListener(new java.awt.event.ActionListener() {
+        menuAlumnos.setText("Alumnos");
+        menuAlumnos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuAñadirAlumActionPerformed(evt);
+                menuAlumnosActionPerformed(evt);
             }
         });
-        menuAlumnos.add(menuAñadirAlum);
-
-        menuModificarAlum.setText("Modificar");
-        menuAlumnos.add(menuModificarAlum);
-
-        menuEliminarAlum.setText("Eliminar");
-        menuAlumnos.add(menuEliminarAlum);
-
-        menuListarAlum.setText("Listar");
-        menuAlumnos.add(menuListarAlum);
-
-        jMenuBar1.add(menuAlumnos);
+        menu.add(menuAlumnos);
 
         menuDocentes.setText("Docentes");
-
-        menuAñadirDoc.setText("Añadir");
-        menuAñadirDoc.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuAñadirDocActionPerformed(evt);
-            }
-        });
-        menuDocentes.add(menuAñadirDoc);
-
-        menuModificarDoc.setText("Modificar");
-        menuDocentes.add(menuModificarDoc);
-
-        menuEliminarDoc.setText("Eliminar");
-        menuDocentes.add(menuEliminarDoc);
-
-        menuListarDoc.setText("Listar");
-        menuDocentes.add(menuListarDoc);
-
-        jMenuBar1.add(menuDocentes);
+        menu.add(menuDocentes);
 
         menuCursos.setText("Cursos");
-
-        menuAñadirCursos.setText("Añadir");
-        menuAñadirCursos.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuAñadirCursosActionPerformed(evt);
-            }
-        });
-        menuCursos.add(menuAñadirCursos);
-
-        menuModificarCursos.setText("Modificar");
-        menuCursos.add(menuModificarCursos);
-
-        menuEliminarCursos.setText("Eliminar");
-        menuCursos.add(menuEliminarCursos);
-
-        menuListarCursos.setText("Listar");
-        menuCursos.add(menuListarCursos);
-
-        jMenuBar1.add(menuCursos);
+        menu.add(menuCursos);
 
         menuAulas.setText("Aulas");
-
-        menuAñadirAulas.setText("Añadir");
-        menuAñadirAulas.addActionListener(new java.awt.event.ActionListener() {
+        menuAulas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                menuAñadirAulasActionPerformed(evt);
+                menuAulasActionPerformed(evt);
             }
         });
-        menuAulas.add(menuAñadirAulas);
+        menu.add(menuAulas);
 
-        menuModificarAulas.setText("Modificar");
-        menuAulas.add(menuModificarAulas);
+        menuSalir.setText("Salir");
+        menuSalir.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuSalirActionPerformed(evt);
+            }
+        });
+        menu.add(menuSalir);
 
-        menuEliminarAulas.setText("Eliminar");
-        menuAulas.add(menuEliminarAulas);
+        jMenuBar1.add(menu);
 
-        menuListarAulas.setText("Listar");
-        menuAulas.add(menuListarAulas);
+        menuAyuda.setText("Ayuda");
 
-        jMenuBar1.add(menuAulas);
+        menuAcerca.setText("Acerca de...");
+        menuAyuda.add(menuAcerca);
+
+        menuContacto.setText("Soporte");
+        menuAyuda.add(menuContacto);
+
+        jMenuBar1.add(menuAyuda);
 
         setJMenuBar(jMenuBar1);
 
@@ -230,7 +210,10 @@ public class ventanaPpal extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(panelPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(panelPrincipal, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -240,25 +223,21 @@ public class ventanaPpal extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void menuAñadirAlumActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuAñadirAlumActionPerformed
+    private void menuAlumnosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuAlumnosActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_menuAñadirAlumActionPerformed
-
-    private void menuAñadirDocActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuAñadirDocActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_menuAñadirDocActionPerformed
-
-    private void menuAñadirCursosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuAñadirCursosActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_menuAñadirCursosActionPerformed
-
-    private void menuAñadirAulasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuAñadirAulasActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_menuAñadirAulasActionPerformed
+    }//GEN-LAST:event_menuAlumnosActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void menuAulasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuAulasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menuAulasActionPerformed
+
+    private void menuSalirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuSalirActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menuSalirActionPerformed
 
     /**
      * @param args the command line arguments
@@ -296,38 +275,43 @@ public class ventanaPpal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
-    private javax.swing.JMenu jMenu1;
+    private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton6;
+    private javax.swing.JButton jButton7;
+    private javax.swing.JButton jButton8;
+    private javax.swing.JButton jButton9;
     private javax.swing.JMenuBar jMenuBar1;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
-    private javax.swing.JMenu menuAlumnos;
-    private javax.swing.JMenu menuAulas;
-    private javax.swing.JMenuItem menuAñadirAlum;
-    private javax.swing.JMenuItem menuAñadirAulas;
-    private javax.swing.JMenuItem menuAñadirCursos;
-    private javax.swing.JMenuItem menuAñadirDoc;
-    private javax.swing.JMenu menuCursos;
-    private javax.swing.JMenu menuDocentes;
-    private javax.swing.JMenuItem menuEliminarAlum;
-    private javax.swing.JMenuItem menuEliminarAulas;
-    private javax.swing.JMenuItem menuEliminarCursos;
-    private javax.swing.JMenuItem menuEliminarDoc;
-    private javax.swing.JMenuItem menuListarAlum;
-    private javax.swing.JMenuItem menuListarAulas;
-    private javax.swing.JMenuItem menuListarCursos;
-    private javax.swing.JMenuItem menuListarDoc;
-    private javax.swing.JMenuItem menuModificarAlum;
-    private javax.swing.JMenuItem menuModificarAulas;
-    private javax.swing.JMenuItem menuModificarCursos;
-    private javax.swing.JMenuItem menuModificarDoc;
+    private javax.swing.JTable jTable2;
+    private javax.swing.JTable jTable3;
+    private javax.swing.JTable jTable4;
+    private javax.swing.JTable jTable5;
+    private javax.swing.JTable jTable6;
+    private javax.swing.JMenu menu;
+    private javax.swing.JMenuItem menuAcerca;
+    private javax.swing.JMenuItem menuAlumnos;
+    private javax.swing.JMenuItem menuAulas;
+    private javax.swing.JMenu menuAyuda;
+    private javax.swing.JMenuItem menuContacto;
+    private javax.swing.JMenuItem menuCursos;
+    private javax.swing.JMenuItem menuDocentes;
+    private javax.swing.JMenuItem menuSalir;
     private javax.swing.JPanel panelPrincipal;
+    private javax.swing.JPanel panelPrincipal1;
+    private javax.swing.JPanel panelPrincipal2;
     // End of variables declaration//GEN-END:variables
 }
